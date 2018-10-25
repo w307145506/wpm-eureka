@@ -8,7 +8,7 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
 /**
  * @EnableEurekaClient 开启eureka服务
- * @author Fubao-A70
+ * @author wpm
  */
 @SpringBootApplication
 @EnableEurekaServer

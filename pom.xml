@@ -7,23 +7,16 @@
   </parent>
   <artifactId>wpm-eureka</artifactId>
   <packaging>war</packaging>
-	<dependencyManagement>
-	    <dependencies>
-	        <dependency>
-	            <groupId>org.springframework.cloud</groupId>
-	            <artifactId>spring-cloud-dependencies</artifactId>
-	            <version>Finchley.SR2</version>
-	            <type>pom</type>
-	            <scope>import</scope>
-	        </dependency>
-	    </dependencies>
-	</dependencyManagement>  
   <dependencies>
   		 <dependency>
 	        <groupId>org.springframework.cloud</groupId>
 	        <artifactId>spring-cloud-starter-eureka-server</artifactId>
 	        <version>1.4.6.RELEASE</version>
     	 </dependency>
+    	 <dependency>
+		    <groupId>org.springframework.boot</groupId>
+		    <artifactId>spring-boot-devtools</artifactId>
+		</dependency>
   </dependencies>
   
   <build>
